@@ -1,0 +1,160 @@
+ {
+	border: 2px solid red;
+}
+
+a {
+	font-family: arial;
+	text-decoration: none;
+	color:black;
+}
+
+
+a:hover {
+	text-decoration: underline;
+}
+
+#menu_bar {
+	z-index: 1;
+	height:34px;
+}
+
+#menu_bar li {	
+     display: block;
+     padding: 0px 5px 0 5px;
+     float:right;
+     height:30px;
+     vertical-align: middle;
+}
+
+#menu_bar p {	
+     margin-top: 7px;
+     font-size: 14px;
+     opacity: 0.60;
+}
+#menu_bar p:hover {
+	opacity: 1;
+	text-decoration: underline;
+}
+
+#menu_bar img {	
+     vertical-align: middle;
+}
+
+#google_logo {
+	display: block;
+	height: 100px;
+	margin: auto;
+	clear: both;
+	position:relative;
+	padding-top: 125px;
+}
+
+#avatar {
+	height:30px;
+	width:30px;
+	border-radius:15px;
+}
+
+.menu_icon {
+	height:30px;
+	width:30px;
+	opacity: 0.60;
+}
+
+.menu_icon:hover {
+	opacity: 1;
+}
+
+form {
+		margin-top: 30px;
+}
+
+input {
+	border: solid .5px grey;
+	margin: auto;
+	width: 490px;
+	height: 30px;
+	vertical-align: middle;
+	display:block;
+}
+
+#mic {
+	height: 30px;
+	width: 490px;
+	vertical-align: middle;
+	margin: auto;
+	display:block;
+}
+
+#mic_p {
+	margin-top:-31px;
+	height: 30px;
+	width: 30px;
+	float: right;
+	opacity: .75;
+}
+
+#button_wrapper {
+    margin: 0 auto;
+    width:260px;
+}
+
+.button {
+	height: 30px;
+	border-radius: 3px;
+	background-color: #F5F5F5;
+	margin: 10px;
+	display: inline-block;
+	font-size: 11px;
+	padding: 0 10px 0 10px;
+	text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    font-family: arial;
+    border: .5px solid #CDCDCD;
+    float:left;
+    font-style: bold;
+}
+
+.button:hover {
+	box-shadow:1px 1px 1px 1px #CDCDCD;
+}
+
+#footer {
+	width:100%;
+	background-color: #F5F5F5;
+	position: fixed;
+    bottom: -20px;
+    left:-15px;
+    border-top: solid 1px #CDCDCD;
+}
+
+#footer li {	
+     display: inline-block;
+     margin: 10px 10px 0 10px;
+     height:30px;
+     width:auto;
+     vertical-align: middle;
+     font-family: arial;
+     font-size: 13px;
+     opacity: 0.60;
+}
+
+
+.left {
+	float:left;
+}
+
+.right {
+float:right;
+}
+
+.right2 {
+		float:right;
+		padding-right: 50px;
+}
+
+
+
+
+
